@@ -1,0 +1,104 @@
+html {
+    scroll-behavior: smooth;
+    
+  }
+body {
+    background: white;
+    text-align: center;
+    object-position: center;
+    width: auto;
+  
+}
+div {
+    border: none;
+    width: auto;
+ }
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    background: rgb(236, 235, 232);
+    margin: 20px;
+    justify-content: center;
+    gap: 30px; 
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+    align-items: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    flex-grow: 1;
+    border-radius: 15px;
+    
+}
+.columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+     
+}
+
+h1 {
+    text-align: center;
+    display:inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.presentacion {
+    text-align: center;
+    background: whitesmoke;
+    height: 100px;
+    vertical-align: middle;
+}
+.caja{
+    height:300px;
+    max-width: 600px;
+    margin: 0%;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background: whitesmoke;
+    border-radius: 15px;
+  
+}
+
+.titulo_foto {
+    display:flex;
+    margin-bottom: 5px;
+}
+.nombre {
+    flex-grow:3;
+    text-align:left;
+    font-weight: bold;
+}
+
+.numero {
+    flex-grow:1;
+    text-align: right;
+    font-weight: lighter;
+}
+
+.imagen {
+    width: 400px;
+    height: auto;
+}
+img {
+    border-radius: 08px;
+    max-width: 400px;
+    max-height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.pie_foto {
+    text-align: justify;
+    background: whitesmoke;
+}
+
+
